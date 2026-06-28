@@ -1,0 +1,128 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
+}
+body{
+	font-family:  -apple-system,  BlinkMacSystemFont,  "Segoe UI",  Roboto,  Oxygen,  Ubuntu,  Cantarell,  "Open Sans",  "Helvetica Neue", sans-serif;
+	line-height:  1.6;
+	color:  #333;
+	background: linear-gradient(135deg,  #f5f7fa  0%,  #c3cfe2  100%);
+.profile-section {
+	padding-block:  40px  10%;
+	background: linear-gradient(135deg,  #f0f4ff,  #e0f0ff);
+}
+
+.profile-content  {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap:  50px;
+	max-width:  1200px;
+	margin: 0 auto;
+}
+
+.profile-info {
+	flex: 1;
+}
+
+.profile-photo-container  {
+	text-align: center;
+	flex: 0 0  300px;
+}
+
+.profile-photo {
+	width: 280px;
+	height: 280px;
+	border-radius:  50%;
+	object-fit:  cover;
+	border:  5px solid #00bff;
+	box-shadow:  0 10px 20px rgbal(0,0,0,0.1);
+	margin-bottom:  15px;
+}
+.change-photo-btn {
+	padding: 10px 20px;
+	background:  #0077bff;
+	color:  white;
+	border: none;
+	cursor: pointer;
+	font-size:  16px;
+}
+.change-photo-btn:hover {
+	background:  #0056b3;
+}
+
+@media (max-width:  768px){
+	.profile-content {
+		flex-direction:  column;
+		align-items:  centre;
+		text-align:  center;
+	}
+    .profile-photo-container{
+    	margin-top:  20px;
+    }
+}
+
+ .section{
+ 	margin-bottom:  40px;
+ 	padding:  20px  40px;
+ }
+ .section h2{
+ 	font-size:  1.4rem;
+ 	font-weight:  bold;
+ 	color:  #4c1d95;
+ 	margin-bottom:  15px;
+ 	border-bottom:   2px solid  #7c3aed;
+ 	padding-bottom:  6px;
+ }
+ p{
+ 	max-width:  600px;
+ 	margin-bottom:  16px;
+ 	font-size:  0.95rem;
+ 	color:  #4b5563;
+ 	line-height:  1.8;
+ }
+ .contact-form {
+ 	display:  flex;
+ 	flex-direction:  column;
+ 	gap:  12px;
+ 	max-width:  600px;
+ }
+
+ .contact-form input,
+ .contact-form textarea {
+ 	padding:  10px 14px;
+ 	border: 1px solid #7c3aed;
+ 	border-radius:  6px;
+ 	font-size:  0.9rem;
+ 	width: 100%;
+ }
+
+ .form-row {
+ 	display:  flex;
+ 	gap:  12px;
+ }
+ .form-row input {
+ 	flex:  1;
+ 	padding: 10px  14px;
+ 	border:  1px solid #7c3aed;
+ 	border-radius:  6px;
+ 	font-size:  0.9rem;
+ }
+
+ .contact-form button {
+ 	background-color:  #7c3aed;
+ 	color:  white;
+ 	border:  none;
+ 	padding:  12px  24px;
+ 	cursor:  pointer;
+ 	font-size:  0.95rem;
+ 	align-self:  flex-start;
+ }
+ footer {
+ 	background-color: #1e1b2e ;
+ 	color:  #a0aec0;
+ 	text-align:  center;
+ 	padding:  20px;
+ 	margin-top:  40px;
+ }
