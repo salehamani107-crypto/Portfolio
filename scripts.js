@@ -1,5 +1,5 @@
 const photos = [
-  'images/IMG-20251203-WA0076.jpg', 'images/IMG-20260301-WA0008.jpg','images/IMG-20260510-WA0077.jpg'];
+  'images/20260616_211011.jpg', 'images/20260616_212011.png','images/20260628_015419png'];
 let current = 0;
  
 function switchphoto(){
